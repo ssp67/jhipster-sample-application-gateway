@@ -1,0 +1,33 @@
+{
+  "name": "Transaction",
+  "fields": [
+    {
+      "fieldName": "date",
+      "fieldType": "LocalDate"
+    },
+    {
+      "fieldName": "amount",
+      "fieldType": "BigDecimal"
+    }
+  ],
+  "relationships": [
+    {
+      "relationshipType": "many-to-one",
+      "otherEntityName": "custAccount",
+      "otherEntityRelationshipName": "transaction",
+      "relationshipName": "custAccount",
+      "otherEntityField": "id"
+    }
+  ],
+  "changelogDate": "20210216032902",
+  "entityTableName": "transaction",
+  "dto": "no",
+  "pagination": "no",
+  "service": "serviceImpl",
+  "jpaMetamodelFiltering": false,
+  "fluentMethods": true,
+  "readOnly": false,
+  "embedded": false,
+  "clientRootFolder": "",
+  "applications": ["myApp", "myApp2"]
+}

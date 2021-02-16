@@ -1,0 +1,26 @@
+{
+  "myApp": {
+    "custAccount": {
+      "home": {
+        "title": "Cust Accounts",
+        "createLabel": "Create a new Cust Account",
+        "createOrEditLabel": "Create or edit a Cust Account",
+        "notFound": "No Cust Accounts found"
+      },
+      "created": "A new Cust Account is created with identifier {{ param }}",
+      "updated": "A Cust Account is updated with identifier {{ param }}",
+      "deleted": "A Cust Account is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Cust Account {{ id }}?"
+      },
+      "detail": {
+        "title": "Cust Account"
+      },
+      "departmentName": "Department Name",
+      "accountNumber": "Account Number",
+      "accountType": "Account Type",
+      "transaction": "Transaction",
+      "customer": "Customer"
+    }
+  }
+}
