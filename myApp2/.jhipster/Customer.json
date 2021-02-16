@@ -1,0 +1,34 @@
+{
+  "name": "Customer",
+  "fields": [
+    {
+      "fieldName": "fname",
+      "fieldType": "String",
+      "fieldValidateRules": ["required"]
+    },
+    {
+      "fieldName": "lname",
+      "fieldType": "String",
+      "fieldValidateRules": ["required"]
+    }
+  ],
+  "relationships": [
+    {
+      "relationshipType": "one-to-many",
+      "otherEntityName": "custAccount",
+      "otherEntityRelationshipName": "customer",
+      "relationshipName": "custAccount"
+    }
+  ],
+  "changelogDate": "20210216033339",
+  "entityTableName": "customer",
+  "dto": "no",
+  "pagination": "no",
+  "service": "serviceImpl",
+  "jpaMetamodelFiltering": false,
+  "fluentMethods": true,
+  "readOnly": false,
+  "embedded": false,
+  "clientRootFolder": "",
+  "applications": ["myApp", "myApp2"]
+}
